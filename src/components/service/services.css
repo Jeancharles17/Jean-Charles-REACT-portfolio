@@ -1,0 +1,101 @@
+/* .services-container { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+  }
+  
+  .services-container .services-box {
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+  }
+  
+  .services-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+  }
+  
+  .services-box h3 {
+    font-size: 2.6rem;
+    color: aqua;
+    align-items: center;
+  }
+  
+  .services-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+    padding: 1rem;
+  }
+  
+  .services-container .services-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .services-container {
+      grid-gap: 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .services-container {
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      grid-gap: 1rem;
+    }
+    
+    .services-box h3 {
+      font-size: 2rem;
+    }
+    
+    .services-box p {
+      font-size: 1.4rem;
+    }
+  }
+  */
+
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .services-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .services-box {
+    background-color: var(--main-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .services-box h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: aqua;
+  }
+  
+  .services-box p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+
+  .services-container .services-box {
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+  }

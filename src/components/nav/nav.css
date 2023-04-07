@@ -1,0 +1,30 @@
+nav{
+    background:transparent;
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(20px);
+}
+
+nav a {
+    background: transparent;
+    padding: 0.8rem;
+    border-radius: 50%;
+    display: flex;
+    color:var(--main-color);
+    font-size: 1rem;
+
+}
+
+nav a.active{
+    background:var(--main-color);
+    color: var(--tex-color);
+}
